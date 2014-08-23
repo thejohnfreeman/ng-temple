@@ -1,0 +1,27 @@
+{
+  "name": "ng-temple",
+  "main": "ng-temple.js",
+  "version": "0.0.0",
+  "authors": [
+    {"name": "John Freeman", "email": "jfreeman08@gmail.com"}
+  ],
+  "description": "Template inheritance for Angular directives.",
+  "keywords": [
+    "template",
+    "inheritance",
+    "angular",
+    "directive"
+  ],
+  "dependencies": {
+    "angular": "^1.2",
+    "jquery": ">=1.11"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
