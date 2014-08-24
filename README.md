@@ -6,6 +6,28 @@
 [inherit]: https://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance
 [Angular]: https://angularjs.org/
 
+## Installation
+
+ng-temple requires [jQuery][], and for some reason it must be included before Angular.
+
+[jQuery]: http://jquery.com/
+
+```sh
+$ bower install ng-template --save
+```
+
+```html
+<!-- index.html -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/ng-temple/ng-temple.js"></script>
+```
+
+```js
+// app.js
+angular.module('app', ['ng-temple'])
+```
+
 ## Quick Start
 
 Skip to the [usage section](#usage).
@@ -89,6 +111,7 @@ transcluded content. Use the `ng-peg` attribute with a value matching the name
 of the corresponding hole.
 
 ```html
+<!-- index.html -->
 <example-panel>
   <div ng-peg="heading">
     Heading
