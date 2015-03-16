@@ -13,7 +13,7 @@ ng-temple requires [jQuery][], and for some reason it must be included before An
 [jQuery]: http://jquery.com/
 
 ```sh
-$ bower install ng-template --save
+$ bower install ng-temple --save
 ```
 
 ```html
